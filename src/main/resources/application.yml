@@ -1,0 +1,19 @@
+server:
+  port: 8080
+
+test:
+  config:
+    value: 1
+    description: "value"
+
+spring:
+  datasource:
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/magaz
+    username: postgres
+    password: root
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
